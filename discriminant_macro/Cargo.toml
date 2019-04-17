@@ -1,0 +1,13 @@
+[package]
+name = "discriminant_macro"
+version = "0.1.0"
+authors = ["John Renner <john@jrenner.net>"]
+edition = "2018"
+
+[dependencies]
+syn = "0.15"
+quote = "0.6"
+proc-macro2 = "0.4.27"
+
+[lib]
+proc-macro = true

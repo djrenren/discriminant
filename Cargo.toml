@@ -1,0 +1,8 @@
+[package]
+name = "discriminant"
+version = "0.1.0"
+authors = ["John Renner <john@jrenner.net>"]
+edition = "2018"
+
+[dependencies]
+discriminant_macro = { path = "./discriminant_macro" }
