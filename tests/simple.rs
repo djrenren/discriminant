@@ -1,6 +1,7 @@
 pub use discriminant::Discriminable;
-pub use discriminant::discriminant_macro::Discriminable;
+pub use discriminant::derive::Discriminable;
 
+#[allow(dead_code)]
 #[derive(Discriminable)]
 enum Foo {
     Bar(i32, i32),
@@ -8,8 +9,8 @@ enum Foo {
     Woo
 }
 
-
-fn main() {
+#[test]
+fn simple() {
     let f = Foo::Bar(1, 2);
 
     assert_eq!(f.discriminate(), FooDiscriminant::Bar);

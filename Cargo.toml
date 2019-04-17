@@ -5,4 +5,4 @@ authors = ["John Renner <john@jrenner.net>"]
 edition = "2018"
 
 [dependencies]
-discriminant_macro = { path = "./discriminant_macro" }
+discriminable_macro = { path = "./discriminable_macro" }

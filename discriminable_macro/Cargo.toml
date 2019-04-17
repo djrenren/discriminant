@@ -1,5 +1,5 @@
 [package]
-name = "discriminant_macro"
+name = "discriminable_macro"
 version = "0.1.0"
 authors = ["John Renner <john@jrenner.net>"]
 edition = "2018"

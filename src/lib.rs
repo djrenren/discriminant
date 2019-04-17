@@ -1,4 +1,4 @@
-pub use discriminant_macro;
+pub use discriminable_macro as derive;
 
 #[must_use]
 pub trait Discriminable {
